@@ -1,4 +1,4 @@
-function primeFactors(number) {
+export function primeFactors(number) {
     let factors = [];
     for(let divisor = 2; divisor <= number; divisor++) {
         for(;number % divisor === 0; number /= divisor) {
@@ -8,5 +8,3 @@ function primeFactors(number) {
     
     return factors;
 }
-
-module.exports = primeFactors;

@@ -1,4 +1,4 @@
-const primeFactors = require('./prime-factors');
+import {primeFactors} from './prime-factors';
 
 describe('Prime factors kata', () => {
     it('should return empty array for 1', () => {

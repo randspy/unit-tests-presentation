@@ -1,5 +1,5 @@
-const primeFactors = require('./prime-factors');
-const each = require('jest-each').default;
+import {primeFactors} from './prime-factors';
+import each from 'jest-each';
 
 describe('Prime factors kata', () => {
     each` number | factors
