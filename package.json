@@ -8,6 +8,7 @@
     "@babel/preset-env": "^7.6.3",
     "@types/jest": "^24.0.18",
     "babel-jest": "^24.9.0",
+    "fast-check": "^1.17.0",
     "jest": "^24.8.0",
     "jest-each": "^24.9.0"
   }
