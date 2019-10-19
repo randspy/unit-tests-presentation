@@ -1,11 +1,15 @@
 {
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:mutation": "./node_modules/@stryker-mutator/core/bin/stryker run"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
+    "@stryker-mutator/core": "^2.1.0",
+    "@stryker-mutator/javascript-mutator": "^2.1.0",
+    "@stryker-mutator/jest-runner": "^2.1.0",
     "@types/jest": "^24.0.18",
     "babel-jest": "^24.9.0",
     "fast-check": "^1.17.0",
